@@ -1,1 +1,71 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Custom Website inspired by Bojoko">
+    <title>Custom Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CustomSite</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to CustomSite</h1>
+            <p>Your guide to the best reviews and articles</p>
+            <a class="cta-button" href="#reviews">Explore More</a>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <h2>Top Reviews</h2>
+            <div class="review-card">
+                <h3>Review Title 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel orci id libero tincidunt luctus.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="review-card">
+                <h3>Review Title 2</h3>
+                <p>Curabitur nec mauris eu nisi fermentum gravida. Pellentesque habitant morbi tristique senectus.</p>
+                <a href="#">Read More</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Us</h2>
+            <p>CustomSite is your go-to platform for authentic reviews and articles. We strive to deliver quality content to help you make informed decisions.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CustomSite. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
